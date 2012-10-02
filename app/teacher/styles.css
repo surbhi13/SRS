@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html{
+	background:url('images/backgroundColor.jpg');
+	/*background-color:#000;*/
+	min-height:100%;
+	position:relative;
+}
+
+
+BODY { 
+	color:#ffffff;
+}
+A:link {color: white}
+A:visited {color: white}
+A:active {color: white}
+A:hover {color: blue}
+#registration input[type="text"] {
+    border: 0 none;
+    font: 20px arial;
+    color: #d7d7d7;
+    width:200px;
+	height: 25px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    }
+
+#registration input[type="text"]:focus {
+	outline:none;
+    font: 20px arial;
+    color: #000000;
+    width: 200px;
+	box-shadow: 0 0 10px #0099FF;
+    }
+	
+#registration input[type="password"] {
+    border: 0 none;
+    font: 20px arial;
+    color: #d7d7d7;
+    width:200px;
+	height: 25px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    }
+
+#registration input[type="password"]:focus {
+	outline:none;
+    font: 20px arial;
+    color: #000000;
+    width: 200px;
+	box-shadow: 0 0 10px #0099FF;
+    }
+
+
+#signIn input[type="text"] {
+    border: 0 none;
+    font: 20px arial;
+    color: #d7d7d7;
+    width:200px;
+	height: 25px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    }
+
+#signIn input[type="text"]:focus {
+	outline:none;
+    font: 20px arial;
+    color: #000000;
+    width: 200px;
+	box-shadow: 0 0 10px #0099FF;
+    }
+	
+#signIn input[type="password"] {
+    border: 0 none;
+    font: 20px arial;
+    color: #d7d7d7;
+    width:200px;
+	height: 25px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    }
+
+#signIn input[type="password"]:focus {
+	outline:none;
+    font: 20px arial;
+    color: #000000;
+    width: 200px;
+	box-shadow: 0 0 10px #0099FF;
+    }
+	
+#field {
+    color: #d7d7d7;
+}
+
+#submitRegButton{
+	margin-top: 580px;
+	margin-left: -80px;
+		
+}
+
+#signInButton{
+	margin-top: 100px;
+	margin-left: -80px;
+	
+		
+}
+
+.forms{
+margin:0 auto;
+width:400px;
+padding:14px;
+}
+
+
+#registrationStyle label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+
+#registrationStyle .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+
+#registrationStyle input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+
+#registrationStyle select{
+float:left;
+font-size:20px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:250px;
+margin:2px 0 20px 10px;
+}
+
+
+
+#selectStyle{
+	float:left;
+	border: 0 none;
+    font: 20px arial;
+    color: #000000;
+    width:250px;
+	height: 38px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+	
+	
+	-webkit-appearance: button;
+	background-image: url('images/selectDropdown.png');
+	background-repeat:no-repeat;
+	background-position: center right;
+	
+	
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+}
+
+#selectstyle:focus {
+	float:left;
+	outline:none;
+    font: 20px arial;
+    color: #000000;
+    width: 250px;
+	height:38px;
+	box-shadow: 0 0 10px #0099FF;
+    }
+	
+	
+	
+	
+
+
+
+
+#wrap{
+	width:400px;
+	margin:0 auto;
+	text-align:left;
+	margin-top:8px;
+	padding:5px;
+	background:#fff;
+    font-family:AvenirLTStd, Arial, Helvetica, sans-serif;
+	font-size:13px;    
+    line-height:16px;
+}
+#wrap .cont_details fieldset,.cont_order fieldset{
+	margin:10px;
+	padding:20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+#wrap legend{
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-weight:bold;
+	font-style:italic;
+    padding-bottom:10px;
+}
+#wrap .cont_details input{
+	margin-bottom:10px;
+	color:#000;
+}
+#wrap .input1:hover,.input1:active{
+	
+}
+#wrap label{
+	display:block;
+	font-size:12px;
+	color:#000;
+    font-weight:bold;
+}
+#wrap label.inlinelabel
+{
+    display:inline;
+}
+#wrap .cont_order input{
+	margin-bottom:5px;
+}
+#wrap .cont_order p{
+	padding-top:5px;
+}
+
+#wrap input[type="radio"]
+{
+margin-top:8px;
+margin-bottom:8px;
+}
+
+#wrap input[type="text"]:hover,
+#wrap input[type="text"]:active {
+background-color: #FAF398;
+}
+
+#wrap input#submit
+{
+margin:10px;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+#wrap div#totalPrice
+{
+    padding:10px;
+    font-weight:bold;
+    background-color:#ff0;
+}
+
+#wrap label.radiolabel
+{
+font-weight:normal;
+ display:inline;
+}
+
+
+
+
+
+
+
+
+
+
